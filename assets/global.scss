@@ -1,0 +1,120 @@
+@import "~material-design-icons/iconfont/material-icons.css";
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.describer {
+  width: 100%;
+  background-color: #0c6645;
+  color: white;
+  padding-bottom: 10%;
+}
+
+.describer-heading {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.describer-content {
+  font-size: 20px;
+  line-height: 1.8em;
+  margin-top: 20px;
+  margin-bottom: 46px;
+  font-family: UniversLTStd-Light;
+}
+
+.describer-link {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  line-height: 1.8em;
+}
+
+.describer-link-text {
+  font-size: 24px;
+  color: white;
+  line-height: 1.8em;
+  border-bottom-style: solid;
+  border-color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.container {
+  padding-bottom: 20%;
+}
+
+.mat-drawer-container-ext {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  display: block;
+  overflow: none;
+}
+
+.mat-drawer-content-ext {
+  position: relative;
+  z-index: 1;
+  display: block;
+  height: 100%;
+  overflow: none;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.school-title {
+  display: block;
+  word-wrap: break-word;
+}
+
+.template-item {
+  background: #f5f5f5;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 1% 0 1% 5%;
+}
+
+.stroked-button {
+  font-size: 1.5rem;
+  padding: 10px 25px;
+  border-color: darkblue !important;
+  border-width: 2px;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+
+.full-height {
+  height: 100%;
+  margin-bottom: 50%;
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../assets/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../assets/fonts/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: UniversLTStd-Bold;
+  src: url(../assets/fonts/Univers-LT-Std-65-Bold_46345.ttf);
+}
+@font-face {
+  font-family: UniversLTStd-Light;
+  src: url(../assets/fonts/Univers-LT-Std-45-Light_46331.ttf);
+}
